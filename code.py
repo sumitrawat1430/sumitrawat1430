@@ -317,8 +317,3 @@ if __name__ =="__main__":
         elif 'shutdown' in query:
             os.system("shutdown /s /t 1")
         
-        elif "will you be my gf" in query or "will you be my bf" in query:
-            speak("I'm not sure about, may be you should give me some time")
-            
-        elif "i love you" in query:
-            speak("It's hard to understand, I am still trying to figure this out.")       
